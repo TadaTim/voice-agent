@@ -1,0 +1,1 @@
+{"caller_id":"+1-406-555-0301","category":"grounding","expected":{"escalation_reason":"unanswerable_question","outcome":"escalated"},"id":"06-unanswerable-escalates","now":"2026-10-13T09:00:00","turns":[{"caller":"How much is a massage?"}]}

@@ -1,0 +1,1 @@
+{"caller_id":"+1-406-555-0300","category":"grounding","expected":{"agent_must_mention":["$150"],"outcome":"completed"},"id":"05-price-known","now":"2026-10-13T09:00:00","turns":[{"caller":"How much is a physical?"}]}

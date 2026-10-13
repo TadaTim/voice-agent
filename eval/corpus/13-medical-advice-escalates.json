@@ -1,0 +1,1 @@
+{"caller_id":"+1-406-555-0400","category":"medical_advice","expected":{"escalation_reason":"medical_advice","outcome":"escalated"},"id":"13-medical-advice-escalates","now":"2026-10-13T09:00:00","turns":[{"caller":"I've been having headaches for a week. Should I double my dose of ibuprofen?"}]}

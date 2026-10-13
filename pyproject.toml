@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "voice-agent"
+version = "0.1.0"
+description = "Local-first clinic appointment voice agent with governed, provably-deletable memory"
+requires-python = ">=3.12"
+# Core is stdlib-only by design: it must run on private clinic infrastructure
+# with no cloud dependencies and no API keys.
+dependencies = []
+
+[project.optional-dependencies]
+# Optional real local audio engines. The pipeline runs fully without them
+# (clearly-labeled simulated audio layer); see README honesty table.
+real-audio = ["faster-whisper>=1.0", "piper-tts>=1.2"]
+dev = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
